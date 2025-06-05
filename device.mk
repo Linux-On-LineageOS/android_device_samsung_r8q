@@ -74,3 +74,4 @@ $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:
 
 # Inherit r8q blobs
 $(call inherit-product, vendor/samsung/r8q/r8q-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
